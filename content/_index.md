@@ -12,7 +12,7 @@ the WWT community!
 
 <section class="flex-cards">
 
-{% card(text="Read the user manual", url="user-manual/1", html=1) %}
+{% card(text="Read the user manual", url="user-manual/1/", html=1) %}
 The <b>AAS WorldWide Telescope User Manual</b> shows how to use
 the WWT Windows application and the
 <a href="//worldwidetelescope.org/webclient/">web client</a>.

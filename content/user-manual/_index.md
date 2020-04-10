@@ -1,3 +1,3 @@
 +++
-redirect_to = "user-manual/1"
+redirect_to = "user-manual/1/"
 +++
