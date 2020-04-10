@@ -1,0 +1,43 @@
+// Styles for the generic elements included in every page through the templates.
+
+header {
+  background-color: $header-bg-color;
+  border-bottom: 1px solid $edge-color;
+
+  div {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+
+    h1 {
+      margin: 0 0 0 auto;
+      font-weight: 400;
+    }
+  }
+}
+
+.header-logo-lg {
+  display: block;
+  width: 260px;
+  margin: 8px 0;
+
+  @media screen and (max-width: $breakpoint) {
+    display: none;
+  }
+}
+
+.header-logo-sm {
+  display: none;
+  margin: 8px 0;
+
+  @media screen and (max-width: $breakpoint) {
+    display: block;
+  }
+}
+
+footer {
+  font-size: 80%;
+  border-top: 1px solid $edge-color;
+}

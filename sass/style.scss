@@ -1,0 +1,24 @@
+@charset "utf-8";
+@import "normalize";
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// Parameters of the layout. In `typography` we set 1 rem = 22 px.
+
+$max-content-width: 792px; // =36rem
+$breakpoint: 750px;
+$header-bg-color: #f0f0f0;
+$edge-color: #e0e0e0;
+$button-color: #77089c;
+$button-link-color: #f0f0f0;
+$button-link-hover-color: #ffffff;
+
+@import "typography";
+@import "content";
+@import "layout";
+@import "chrome";

@@ -1,0 +1,11 @@
+base_url = "//docs.worldwidetelescope.org"
+title = "AAS WorldWide Telescope Documentation"
+description = "Collected documentation of the AAS WorldWide Telescope project."
+default_language = "en"
+compile_sass = true
+highlight_code = false
+build_search_index = false
+
+[extra]
+logo_url = "//worldwidetelescope.org/home"
+github_url = "//github.org/WorldWideTelescope/worldwide-telescope-docs-hub"

@@ -1,0 +1,49 @@
+{# Jumping through hoops to get a relative path to the site root #}
+{%- if current_path == "/" -%}
+  {%- set_global rel_top = "./" -%}
+{%- else -%}
+  {%- set_global rel_top_work = [] -%}
+  {%- for _ignored in current_path | split(pat="/") | slice(start=1) -%}
+    {%- set_global rel_top_work = rel_top_work | concat(with="..") -%}
+  {%- endfor -%}
+  {%- set_global rel_top = rel_top_work | join(sep="/") -%}
+  {%- set_global rel_top = rel_top ~ "/" -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+    <link rel="stylesheet" href="{{ rel_top ~ 'style.css' | safe }}">
+    <!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    {% block extra_head %}
+    {% endblock extra_head %}
+  </head>
+
+  <body>
+    <header>
+      <div class="maxwidth">
+        <a href="{{ config.extra.logo_url | safe }}">
+          <img class="header-logo-lg" src="{{ rel_top ~ 'assets/stacked-logo-black-on-transparent-260x103.png' | safe }}">
+          <img class="header-logo-sm" src="{{ rel_top ~ 'assets/wwt-globe.png' | safe }}">
+        </a>
+
+        <h1>WWT Documentation</h1>
+      </div>
+    </header>
+
+    <main class="maxwidth content">
+      {% block content %}
+      {% endblock content %}
+    </main>
+
+    <footer class="maxwidth">
+      <p>Copyright {{ now() | date(format="%Y") }} <a href="http://aas.org/">AAS</a>.
+        HTML generated with <a href="https://www.getzola.org/">Zola</a>.
+        <a href="{{ config.extra.github_url | safe }}">Source code</a>.
+      </p>
+    </footer>
+  </body>
+</html>
