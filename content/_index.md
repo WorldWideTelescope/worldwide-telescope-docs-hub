@@ -2,8 +2,8 @@
 +++
 
 What would you like to learn about today? Regardless of what topic you’re
-interested in, reach out on [the WWT forum] to get help from the WWT
-community!
+interested in, you can always reach out to [the WWT forum] for guidance from
+the WWT community!
 
 [the WWT forum]: https://wwt-forum.org/
 
