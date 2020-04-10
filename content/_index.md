@@ -2,10 +2,12 @@
 +++
 
 What would you like to learn about today? Regardless of what topic you’re
-interested in, you can always reach out to [the WWT forum] for guidance from
-the WWT community!
+interested in, you can always reach out to [the WWT forum][forum] for guidance
+from the WWT community! And you can stay in touch by
+[signing up for our newsletter][newsletter].
 
-[the WWT forum]: https://wwt-forum.org/
+[forum]: https://wwt-forum.org/
+[newsletter]: https://bit.ly/wwt-signup
 
 
 # Getting Started with WWT
@@ -23,6 +25,11 @@ Are you a researcher? Use WWT’s rendering engine to visualize and
 analyze your data inside Jupyter with <b>pywwt</b>.
 {% end %}
 
+{% card(text="Visit us on YouTube", url="http://www.youtube.com/c/AASWorldWideTelescope", html=1) %}
+Check out <b>our YouTube channel</b> to see for yourself what WWT can do and how
+educators and scientists across the world are using it.
+{% end %}
+
 </section>
 
 
@@ -36,8 +43,9 @@ Python language.
 {% end %}
 
 {% card(text="WebGL Engine docs", url="https://worldwidetelescope.gitbook.io/webgl-engine-reference/", html=1) %}
-The web client and pywwt are powered by a reusable JavaScript library that you
-can use to build your own web-based interactives and embeds.
+The web client and pywwt are powered by a reusable JavaScript library, the
+<b>WWT WebGl Engine</b>, which you can use to build your own web-based
+interactives and embeds.
 {% end %}
 
 </section>
@@ -58,3 +66,13 @@ web services APIs and provides tools for issuing requests.
 {% end %}
 
 </section>
+
+
+# Additional Resources
+
+You might also want to check out:
+
+- [About AAS WorldWide Telescope](https://worldwidetelescope.org/About)
+- [The WWT discussion forum][forum]
+- [WWT on GitHub](https://github.com/WorldWideTelescope/)
+- [Signing up for our newsletter][newsletter]
