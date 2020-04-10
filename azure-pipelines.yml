@@ -14,4 +14,4 @@ jobs:
     azureServiceConnectionName: 'aas@wwtadmindotnetfoundation'
     storageAccountName: 'wwtwebstatic'
     pubPrefix: '_docs'
-    cdnProfileName: 'skip'
+
