@@ -9,3 +9,5 @@ build_search_index = false
 [extra]
 logo_url = "//worldwidetelescope.org/home"
 github_url = "//github.com/WorldWideTelescope/worldwide-telescope-docs-hub"
+twitter_url = "https://twitter.com/wwtelescope"
+facebook_url = "https://facebook.com/wwtelescope"
