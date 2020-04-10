@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/aasworldwidetelescope/WWT/_apis/build/status/WorldWideTelescope.worldwide-telescope-docs-hub?branchName=master)](https://dev.azure.com/aasworldwidetelescope/WWT/_build/latest?definitionId=9&branchName=master)
+
 # WWT Docs Hub website: Source Code
 
 This repository contains the source code for the hub page of
