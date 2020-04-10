@@ -13,8 +13,5 @@ jobs:
   parameters:
     azureServiceConnectionName: 'aas@wwtadmindotnetfoundation'
     storageAccountName: 'wwtwebstatic'
-    cdnEndpointName: 'wwtwebdocs-prod'
-    cdnProfileName: 'wwt-cdn-01'
-    cdnPubPrefix: '/'
-    cdnResourceGroupName: 'wwt-web01'
     pubPrefix: '_docs'
+    cdnProfileName: 'skip'
