@@ -34,16 +34,18 @@
       </div>
     </header>
 
-    <main class="maxwidth content">
-      {% block content %}
-      {% endblock content %}
-    </main>
+    <div class="maxwidth">
+      <main class="content">
+        {% block content %}
+        {% endblock content %}
+      </main>
 
-    <footer class="maxwidth">
-      <p>Copyright {{ now() | date(format="%Y") }} <a href="http://aas.org/">AAS</a>.
-        HTML generated with <a href="https://www.getzola.org/">Zola</a>.
-        <a href="{{ config.extra.github_url | safe }}">Source code</a>.
-      </p>
-    </footer>
+      <footer>
+        <p>Copyright {{ now() | date(format="%Y") }} <a href="http://aas.org/">AAS</a>.
+          HTML generated with <a href="https://www.getzola.org/">Zola</a>.
+          <a href="{{ config.extra.github_url | safe }}">Source code</a>.
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
