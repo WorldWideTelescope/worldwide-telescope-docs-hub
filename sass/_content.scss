@@ -90,7 +90,7 @@
 
     .flex-card {
       flex: 1 1;
-      min-width: 15rem;
+      min-width: 10rem;
       margin: 0.8rem;
 
       display: flex;
@@ -104,7 +104,6 @@
       p {
         margin: 0 0 1rem 0;
         flex-grow: 1;
-        text-align: justify;
       }
     }
 
