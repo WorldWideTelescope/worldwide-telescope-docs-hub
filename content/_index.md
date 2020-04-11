@@ -61,6 +61,11 @@ systems. The <b>WWT Multi-Channel Dome Setup Guide</b> shows how to set up the
 software and configure your projector alignment.
 {% end %}
 
+{% card(text="Build your own dome", url="diy-planetarium-dome/1/", html=1) %}
+Feeling handy? The <b>WWT D.I.Y. Planetarium Dome Guide</b> shows how to build
+your own small planetarium dome from scratch!
+{% end %}
+
 </section>
 
 # Exploring WWT Infrastructure
