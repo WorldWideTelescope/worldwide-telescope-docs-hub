@@ -1,9 +1,9 @@
 +++
 +++
 
-What would you like to learn about today? Regardless of what topic you’re
-interested in, you can always reach out to [the WWT forum][forum] for guidance
-from the WWT community! And you can stay in touch by
+What would you like to learn about today? Regardless of the topic, you can
+always reach out to [the WWT forum][forum] for guidance from the WWT
+community! And you can stay in touch by
 [signing up for our newsletter][newsletter].
 
 [forum]: https://wwt-forum.org/
