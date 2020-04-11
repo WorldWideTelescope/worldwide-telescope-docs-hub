@@ -51,6 +51,18 @@ interactives and embeds.
 </section>
 
 
+# Using WWT in a Planetarium
+
+<section class="flex-cards">
+
+{% card(text="Multi-Channel Setup Guide", url="multichannel-dome-setup/1/", html=1) %}
+WWT can power multiple-projector planetarium domes and other high-end display
+systems. The <b>WWT Multi-Channel Dome Setup Guide</b> shows how to set up the
+software and configure your projector alignment.
+{% end %}
+
+</section>
+
 # Exploring WWT Infrastructure
 
 <section class="flex-cards">
