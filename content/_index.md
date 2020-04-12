@@ -37,7 +37,7 @@ educators and scientists across the world are using it.
 
 <section class="flex-cards">
 
-{% card(text="pywwt documentation", url="https://pywwt.readthedocs.io/en/stable/", html=1) %}
+{% card(text="pywwt documentation", url="https://pywwt.readthedocs.io/", html=1) %}
 You can use the <b>pywwt</b> to build custom WWT-based visualizations in the
 Python language.
 {% end %}
@@ -46,6 +46,12 @@ Python language.
 The web client and pywwt are powered by a reusable JavaScript library, the
 <b>WWT WebGl Engine</b>, which you can use to build your own web-based
 interactives and embeds.
+{% end %}
+
+{% card(text="Layer Control API Guide", url="lcapi-guide/1/", html=1) %}
+For specialized applications not covered by <a
+href="https://pywwt.readthedocs.io/">pywwt</a>, you can programmatically load
+data into the WWT Windows application using the <b>Layer Control API</b>.
 {% end %}
 
 </section>
