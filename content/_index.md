@@ -1,4 +1,7 @@
 +++
+title = "WWT Documentation Hub"
+sort_by = "weight"
+insert_anchor_links = "right"
 +++
 
 What would you like to learn about today? Regardless of the topic, you can
