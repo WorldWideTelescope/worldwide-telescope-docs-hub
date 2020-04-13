@@ -36,7 +36,7 @@ educators and scientists across the world are using it.
 </section>
 
 
-# Exploring Your Data in WWT
+# Getting Your Data into WWT
 
 <section class="flex-cards">
 
