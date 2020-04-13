@@ -36,6 +36,29 @@ educators and scientists across the world are using it.
 </section>
 
 
+# Exploring Your Data in WWT
+
+<section class="flex-cards">
+
+{% card(text="pywwt documentation", url="https://pywwt.readthedocs.io/en/stable/layers.html", html=1) %}
+For most images and data tables, the fastest way to visualize them in
+WorldWide Telescope is with the <b>pywwt</b> Python package.
+{% end %}
+
+{% card(text="Read the Data Guide", url="data-guide/1/", html=1) %}
+The <b>WWT Data Guide</b> is your one-stop-shop to understand the details of
+the different data formats used in AAS WorldWide Telescope and the software
+tools that create and manipulate them.
+{% end %}
+
+{% card(text="toasty documentation", url="https://toasty.readthedocs.io/", html=1) %}
+Use the <b>toasty</b> Python package to “tile” large images for efficient
+Web-based visualization.
+{% end %}
+
+</section>
+
+
 # Developing WWT-Based Software
 
 <section class="flex-cards">
