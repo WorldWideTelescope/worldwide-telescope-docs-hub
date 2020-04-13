@@ -36,6 +36,25 @@ educators and scientists across the world are using it.
 </section>
 
 
+# Creating Experiences with WWT
+
+<section class="flex-cards">
+
+{% card(text="Tour Authoring Guide", url="tour-authoring-guide/1/", html=1) %}
+<b>Tours</b> are scripted, multimedia experiences that guide the viewer
+through WWT’s simulated universe. Create and share tours to teach astronomical
+concepts, showcase your data, or share your passion for the cosmos!
+{% end %}
+
+{% card(text="Layer Guide", url="layer-guide/1/", html=1) %}
+WWT tours are built out of graphical <b>layers</b> in the WWT rendering engine
+that add new imagery, 3D models, orbital trajectories, and more. Visit the
+<b>Layer Guide</b> to learn what’s possible.
+{% end %}
+
+</section>
+
+
 # Getting Your Data into WWT
 
 <section class="flex-cards">
