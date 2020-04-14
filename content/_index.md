@@ -106,10 +106,10 @@ data into the WWT Windows application using the <b>Layer Control API</b>.
 
 <section class="flex-cards">
 
-{% card(text="Multi-Channel Setup Guide", url="multichannel-dome-setup/1/", html=1) %}
+{% card(text="Planetarium Guide", url="planetarium-guide/1/", html=1) %}
 WWT can power multiple-projector planetarium domes and other high-end display
-systems. The <b>WWT Multi-Channel Dome Setup Guide</b> shows how to set up the
-software and configure your projector alignment.
+systems. The <b>Planetarium Guide</b> shows how to configure your projector
+alignment, set up advanced controllers, and more.
 {% end %}
 
 {% card(text="Build your own dome", url="diy-planetarium-dome/1/", html=1) %}
