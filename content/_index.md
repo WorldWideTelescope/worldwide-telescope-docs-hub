@@ -121,6 +121,11 @@ your own small planetarium dome from scratch!
 
 <section class="flex-cards">
 
+{% card(text="Infrastructure Guide", url="infrastructure-guide/1/", html=1) %}
+The <b>Infrastructure Guide</b> provides an overview of the infrastructure
+systems that support the WWT applications and services.
+{% end %}
+
 {% card(text="wwt_data_formats docs", url="https://wwt-data-formats.readthedocs.io/", html=1) %}
 The <b>wwt_data_formats</b> Python package documents the details of WWT’s
 low-level data formats, and provides tools for reading and writing them.
