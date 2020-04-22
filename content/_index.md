@@ -5,12 +5,10 @@ insert_anchor_links = "right"
 +++
 
 What would you like to learn about today? Regardless of the topic, you can
-always reach out to [the WWT forum][forum] for guidance from the WWT
-community! And you can stay in touch by
-[signing up for our newsletter][newsletter].
+always reach out to [the WWT forum][forum] if the resources below don’t meet
+your needs.
 
 [forum]: https://wwt-forum.org/
-[newsletter]: https://bit.ly/wwt-signup
 
 
 # Getting Started with WWT
@@ -144,3 +142,5 @@ You might also want to check out:
 - [The WWT discussion forum][forum]
 - [WWT on GitHub](https://github.com/WorldWideTelescope/)
 - [Signing up for our newsletter][newsletter]
+
+[newsletter]: https://bit.ly/wwt-signup
