@@ -85,7 +85,7 @@ You can use the <b>pywwt</b> to build custom WWT-based visualizations in the
 Python language.
 {% end %}
 
-{% card(text="WebGL Engine docs", url="https://worldwidetelescope.gitbook.io/webgl-engine-reference/", html=1) %}
+{% card(text="WebGL Engine docs", url="webgl-reference/latest/", html=1) %}
 The web client and pywwt are powered by a reusable JavaScript library, the
 <b>WWT WebGL Engine</b>, which you can use to build your own web-based
 interactives and embeds.
