@@ -1,14 +1,14 @@
-base_url = "//docs.worldwidetelescope.org"
-title = "AAS WorldWide Telescope Documentation"
-description = "Collected documentation of the AAS WorldWide Telescope project."
+base_url = "https://docs.worldwidetelescope.org"
+title = "WorldWide Telescope Documentation"
+description = "Collected documentation of the WorldWide Telescope project."
 default_language = "en"
 compile_sass = true
 highlight_code = false
 build_search_index = false
 
 [extra]
-logo_url = "//worldwidetelescope.org/home"
-github_url = "//github.com/WorldWideTelescope/worldwide-telescope-docs-hub"
+logo_url = "https://worldwidetelescope.org/home"
+github_url = "https://github.com/WorldWideTelescope/worldwide-telescope-docs-hub"
 twitter_url = "https://twitter.com/wwtelescope"
 facebook_url = "https://facebook.com/wwtelescope"
 google_analytics_id = "UA-107473046-3"

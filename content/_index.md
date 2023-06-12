@@ -16,9 +16,9 @@ your needs.
 <section class="flex-cards">
 
 {% card(text="Read the user manual", url="user-manual/1/", html=1) %}
-The <b>AAS WorldWide Telescope User Manual</b> shows how to use
+The <b>WorldWide Telescope User Manual</b> shows how to use
 the WWT Windows application and the
-<a href="//worldwidetelescope.org/webclient/">web client</a>.
+<a href="https://worldwidetelescope.org/webclient/">web client</a>.
 {% end %}
 
 {% card(text="Start using pywwt", url="https://pywwt.readthedocs.io/en/stable/#quick-start", html=1) %}
@@ -64,7 +64,7 @@ WorldWide Telescope is with the <b>pywwt</b> Python package.
 
 {% card(text="Read the Data Guide", url="data-guide/1/", html=1) %}
 The <b>WWT Data Guide</b> is your one-stop-shop to understand the details of
-the different data formats used in AAS WorldWide Telescope and the software
+the different data formats used in WorldWide Telescope and the software
 tools that create and manipulate them.
 {% end %}
 
@@ -143,9 +143,11 @@ web services APIs and provides tools for issuing requests.
 
 You might also want to check out:
 
-- [About AAS WorldWide Telescope](https://worldwidetelescope.org/About)
+- [About WorldWide Telescope](https://worldwidetelescope.org/about/)
 - [The WWT discussion forum][forum]
 - [WWT on GitHub](https://github.com/WorldWideTelescope/)
 - [Signing up for our newsletter][newsletter]
+- [Donate to support WWT][donate]
 
 [newsletter]: https://bit.ly/wwt-signup
+[donate]: https://numfocus.org/donate-for-worldwide-telescope
